@@ -4,6 +4,8 @@
 This is intended to make KLT stuff, with initial inspiration from the following:
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
 The end goal is to modify the example for feature tracking to be used in the robot for localization
+
+@TODO Start out by making script capable of telling when it is back where it originally started?
 """
 
 import numpy as np #Because who the fuck wouldn't
