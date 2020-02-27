@@ -9,7 +9,7 @@ The end goal is to modify the example for feature tracking to be used in the rob
 import numpy as np #Because who the fuck wouldn't
 import cv2 #Because computer vision shit
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) #Use 0 for default camera, or a file locaiton for another video source
 
 # params for ShiTomasi corner detection
 feature_params = dict( maxCorners = 100,
